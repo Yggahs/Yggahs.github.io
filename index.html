@@ -3,26 +3,38 @@
     <head>
         <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"/>
         <header>
-            <nav><icon></icon><div>Alessio Calore's Portfolio</div></nav>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" width="30" height="30">
+                Alessio Calore's Portfolio
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">About me</a>
+                </div>
+              </div>
+            </div>
+          </nav>
         </header>
     </head>
     <body>
         <div class="container-fluid">
-            <!-- <h1>Hello World</h1>
-            <p  class="text-danger"><a href="/pages/aboutme.html">I'm hosted with GitHub Pages.</a></p> -->
-            <div class="row d-flex">
+            <div class="row d-flex py-2">
                 <div class="col">
-                    <!-- <iframe  src=""></iframe>  -->
-
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <iframe class="d-block w-100" src="https://www.youtube.com/embed/tgbNymZ7vqY" width="100%" height="100%" alt="First slide"></iframe>
+                            <iframe src="https://www.youtube.com/embed/ftNPEQPny4w" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
                             <!-- <img class="d-block w-100" src="..." alt="First slide"> -->
                           </div>
                           <div class="carousel-item">
@@ -32,27 +44,222 @@
                             <img class="d-block w-100" src="images/DSC_0160.jpg" alt="Third slide">
                           </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                        </a>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
-                <div class="col">
-                    <h2>CELL RESISTANCE</h2>
+                <div class="d-flex flex-wrap align-items-center col">
+                  <div class="d-flex flex-column justify-content-center align-items-start">
+                    <h2>Cell Resistance</h2>
                     <h6>2018 | <em>Made with Unity</em></h6>
+                  </div>
+                  <div class="align-items-center">
                     <p>
                         Winner of Kingston Univeristy's 2018 Game Jam
                         Cell Resistance is a top-down shooter taking place inside a sick person's body, where the player controls a white cell that can switch between two states of resistance.
                         This game was developed as a team effort over the course of 24 hours during Kingston University's 2018 Game Jam. The contest's theme was "Resistance", thus we settled on the idea of a little white cell helping a body resist a viral attack.
                         I was assigned the task of creating the AI for the enemies in the game.
                     </p>
+                  </div>
+                <div class="align-items-end fst-italic">
+                    <p>
+                      Team Meat-a-Ball-ah contacts:<br>
+                      <a href="https://www.linkedin.com/in/vladislav-li-393216122/">Vladislav Li</a><br>
+                      <a href="https://www.linkedin.com/in/parolinimichael/">Michael Parolini</a><br>
+                      <a href="https://www.linkedin.com/in/thanaphon-sanongkhun/">Thanaphon Sanongkhun</a><br>
+                      <a href="https://www.linkedin.com/in/dario-tabatabie-80353096/">Dario Tabatabie</a><br>
+                    </p>
+                  </div>
                 </div>
             </div>
+
+            <div class="row d-flex py-2 bg-light">
+              <div class="d-flex flex-wrap align-items-center col">
+                <div class="d-flex flex-column justify-content-center align-items-start">
+                  <h2>Unity ECS  Demonstration: Galaxy</h2>
+                  <h6>2019 | <em>Made with Unity</em></h6>
+                </div>
+                <div class="align-items-center">
+                  <p>
+                    This project was created in a week as a way to showcase Unity's recent implementation of the Entity Component System. This system can allow for exceptional levels of optimization and thus the amount of entities that are allowed to be on the screen without the framerate dropping.<br>
+                  </p>
+                </div>
+                <div class="align-items-end fst-italic">
+                  <p>
+                    ​This was a group project on which i worked on with <a href="https://www.linkedin.com/in/parolinimichael/">Michael Parolini</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <iframe src="https://www.youtube.com/embed/x0Y9T27UZaU" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="row d-flex py-2">
+              <div class="col">
+                <iframe src="https://www.youtube.com/embed/_bj2gIhxJ2o" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="d-flex flex-wrap align-items-center col">
+                <div class="d-flex flex-column justify-content-center align-items-start">
+                  <h2>Arkanoid PS4</h2>
+                  <h6>2019 | <em>Made with Unity</em></h6>
+                </div>
+                <div class="align-items-center">
+                  <p>
+                    This project was created in a week as a way to showcase Unity's recent implementation of the Entity Component System. This system can allow for exceptional levels of optimization and thus the amount of entities that are allowed to be on the screen without the framerate dropping.<br>
+                  </p>
+                </div>
+                <div class="align-items-end fst-italic">
+                  <p>
+                    ​This was a group project on which i worked on with <a href="https://www.linkedin.com/in/parolinimichael/">Michael Parolini</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-flex py-2 bg-light">
+              <div class="d-flex flex-wrap align-items-center col">
+                <div class="d-flex flex-column justify-content-center align-items-start">
+                  <h2>Silence in the Snow</h2>
+                  <h6>2018 | <em>Made with Unity</em></h6>
+                </div>
+                <div class="align-items-center">
+                  <p>
+                    Silence in the Snow is a 4 player free-for-all game similar to Splatoon. The objective of the game is to cover the ground with as much blood of the color of your team as possible, before the timer reaches zero. To do so, players will have to defeat AI controlled enemies that spawn at the edges of the map. The project was made to showcase Unity's online capabilities, in particular Photon. It uses an SQL server to create and save accounts.<br>
+                  </p>
+                </div>
+                <div class="align-items-end fst-italic">
+                  <p>
+                    ​This was a group project on which i worked on with <a href="https://www.linkedin.com/in/dario-tabatabie-80353096/">Dario Tabatabie</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <img src="images/silence-in-the-snow.png" width="100%">
+                <!-- <iframe src="https://www.youtube.com/watch?v=-K54Raqcur8" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe> -->
+              </div>
+            </div>
+
+            <div class="row d-flex py-2">
+              <div class="col">
+                <iframe src="https://www.youtube.com/embed/-K54Raqcur8" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="d-flex flex-wrap align-items-center col">
+                <div class="d-flex flex-column justify-content-center align-items-start">
+                  <h2>The Danger Zone</h2>
+                  <h6>2018 | <em>Made with Unreal 4.19</em></h6>
+                </div>
+                <div class="align-items-center">
+                  <p>
+                    The Danger Zone is a third person shooter inspired by the Ratchet and Clank universe where the player takes control of a crash test dummy and the objective is to survive the onslaught of enemies to get to the end of the gauntlet. I worked on the weapons, the player's controls and the enemies' AI.<br>
+                  </p>
+                </div>
+                <div class="align-items-end fst-italic">
+                  <p>
+                    ​This was a group project on which i worked on with <a href="https://www.linkedin.com/in/dario-tabatabie-80353096/">Dario Tabatabie</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-flex py-2 bg-light">
+              <div class="d-flex flex-wrap align-items-center col">
+                <div class="d-flex flex-column justify-content-center align-items-start">
+                  <h2>Thrash the Dove</h2>
+                  <h6>2017 | <em>Made with GFC</em></h6>
+                </div>
+                <div class="align-items-center">
+                  <p>
+                    Thrash The Dove is a physics based game inspired by the flash game Toss the Turtle: the objective of the game is to have the dove land as far as possible; the player is provided with a shotgun that can launch the dove even farther.<br>
+                  </p>
+                </div>
+                <div class="align-items-end fst-italic">
+                  <p>
+                  This was a group project on which i worked on with <a href="https://www.linkedin.com/in/dario-tabatabie-80353096/">Dario Tabatabie</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <iframe src="https://www.youtube.com/embed/tn8j_Dq-MJ8" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="row d-flex py-2">
+              <div class="col">
+                <iframe src="https://www.youtube.com/embed/GVEVFpo-uRU" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="d-flex flex-wrap align-items-center col">
+                <div class="d-flex flex-column justify-content-center">
+                  <h2>Han is Solo</h2>
+                  <h6>2017 | <em>Made with GFC</em></h6>
+                </div>
+                <div class="align-items-center">
+                  <p>
+                    Han Is Solo is a stealth game set in the Star Wars universe; the player takes control of Han Solo and the objective is to escape the Empire base without being caught by the droids.<br>
+                  </p>
+                </div>
+                <div class="align-items-end fst-italic">
+                  <p>
+                  This was a group project on which i worked on with <a href="https://www.linkedin.com/in/dario-tabatabie-80353096/">Dario Tabatabie</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row d-flex py-2 bg-light">
+              <div class="d-flex flex-wrap align-items-center col">
+                <div class="d-flex flex-column justify-content-center align-items-start">
+                  <h2>Volcano Isles</h2>
+                  <h6>2018 | <em>Made with OpenGL</em></h6>
+                </div>
+                <div class="align-items-center">
+                  <p>
+                    This is a small project made in OpenGL, we were asked to create a scene containing objects, particle effects, water, multitexturing, a skybox and a height map.
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <iframe src="https://www.youtube.com/embed/KBYI3O1ZtM0" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="row d-flex py-2">
+              <div class="col">
+                <iframe src="https://www.youtube.com/embed/52AHUlJ0zQU" width="100%" height="492" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="d-flex flex-wrap align-items-center col">
+                <div class="d-flex flex-column justify-content-center align-items-start">
+                  <h2>Unreal Shaders</h2>
+                  <h6>2019 | <em>Made with Unreal 4.19</em></h6>
+                </div>
+                <div class="align-items-stretch">
+                  <p>
+                    This project showcases some shaders made in Unreal. There are 5 main shaders, each of which was custom made though the use of Unreal's shader tool. A version of this same project was also made in Unity.<br>
+                    The shaders in this project are:<br>
+                    <ul>
+                      <li>Fire - The wall of fire in front of the room;</li>
+                      <li>Blood - The liquid that covers the floor;</li>
+                      <li>Fiery Dissolvence - The effect applied to the disappearing demon;</li>
+                      <li>Glowing Altars - The effect applied to the altars;</li>
+                      <li>Tornado of souls - The cone of revolving images around the demon.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
         </div>
+        <script src="/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.js"></script>
+        <script src="/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>  
     </body>
+    <footer>
+      
+    </footer>
 </html>

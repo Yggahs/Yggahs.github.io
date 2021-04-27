@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/stylesheet.css"/>
         <header>
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -253,13 +254,18 @@
                 </div>
               </div>
             </div>
-
-
         </div>
+        <script src="https://kit.fontawesome.com/64d2f6ddfa.js" crossorigin="anonymous"></script>
+        <script src="/bootstrap-5.0.0-beta2-dist/js/jquery-3.6.0.min.js"></script>
         <script src="/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.js"></script>
-        <script src="/bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>  
+        <script src="/bootstrap-5.0.0-beta2-dist/js/script.js"></script>  
     </body>
     <footer>
-      
+      <div class="d-flex justify-content-around fa-2x bg-light">
+        <a class="nodec" href="https://www.linkedin.com/in/alessio-calore-562385120/"><i class="fab fa-linkedin"></i></a>
+        <a class="nodec" href="https://github.com/Yggahs"><i class="fab fa-github" ></i></a>
+        <button onclick="copiaemail()" title="Email copied!" data-toggle="popover" data-placement="top" ><i class="fas fa-envelope"></i></button>
+        <button onclick="copiacell()" title="Cellphone copied!" data-toggle="popover" data-placement="top"><i class="fas fa-phone-alt"></i></button>
+      </div>
     </footer>
 </html>

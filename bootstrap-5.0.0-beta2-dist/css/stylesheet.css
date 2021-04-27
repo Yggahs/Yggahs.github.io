@@ -1,0 +1,14 @@
+button {
+    border: none;
+    outline:none;
+    }
+
+.nodec{
+    text-decoration: none;
+    color: inherit; /* For Example */
+}
+
+.nodec:hover{
+    
+    color: inherit; /* For Example */
+}

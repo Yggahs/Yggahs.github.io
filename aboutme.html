@@ -55,6 +55,7 @@
               <a
                 class="nav-link nodec"
                 aria-label="Github"
+                data-bs-trigger="click"
                 href="https://github.com/Yggahs"
                 ><i class="fab fa-github"></i> Github</a
               >
@@ -62,11 +63,11 @@
                 role="button"
                 class="nav-link clip"
                 aria-label="E-mail"
+                data-bs-trigger="click"
                 data-clipboard-text="alessio.calore96@gmail.com"
-                onclick="copiaemail()"
                 title="Email copied!"
-                data-toggle="popover"
-                data-placement="bottom"
+                data-bs-toggle="popover"
+                data-bs-placement="bottom"
                 ><i class="fas fa-envelope"></i> E-mail</a
               >
               <a
@@ -74,10 +75,9 @@
                 class="nav-link clip"
                 aria-label="Cellphone"
                 data-clipboard-text="+393402956476"
-                onclick="copiacell()"
                 title="Cellphone copied!"
-                data-toggle="popover"
-                data-placement="bottom"
+                data-bs-toggle="popover"
+                data-bs-placement="bottom"
                 ><i class="fas fa-phone-alt"></i> Cellphone</a
               >
             </div>
@@ -179,20 +179,20 @@
         class="nodec clip"
         data-clipboard-text="alessio.calore96@gmail.com"
         role="button"
-        onclick="copiaemail()"
+        data-bs-trigger="click"
         title="Email copied!"
         data-bs-toggle="tooltip"
-        data-placement="top"
+        data-bs-placement="top"
         ><i class="fas fa-envelope"></i
       ></a>
       <a
         class="nodec clip"
         data-clipboard-text="+393402956476"
         role="button"
-        onclick="copiacell()"
+        data-bs-trigger="click"
         title="Cellphone copied!"
         data-bs-toggle="tooltip"
-        data-placement="top"
+        data-bs-placement="top"
         ><i class="fas fa-phone-alt"></i
       ></a>
     </div>

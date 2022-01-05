@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();
-  });
+$(document).ready(function () {
+  $('[data-toggle="tooltip"]').popover();
+});
 
-new ClipboardJS('.clip');
+new ClipboardJS(".clip");

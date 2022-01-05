@@ -1,89 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/stylesheet.css"/>
-        <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta
-            name="description"           
-            content="Alessio Calore, Game & Web Developer. 
-                     This is a page where you can check out some of my work.">
-        <title>Alessio Calore's Portfolio - About Me</title>
-        <header>
-          <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand">
-                <img loading="lazy" src="images/logo.png" alt="Alessio's beardy face" width="30" height="30">
-                Alessio Calore
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  <a class="nav-link disabled" href="aboutme.html">About me</a>
-                  <a class="nav-link nodec" aria-label="Linkedin" href="https://www.linkedin.com/in/alessio-calore-562385120/"><i class="fab fa-linkedin"></i> Linkedin</a>
-                  <a class="nav-link nodec" aria-label="Github" href="https://github.com/Yggahs"><i class="fab fa-github" ></i> Github</a>
-                  <a role="button" class="nav-link clip" aria-label="E-mail" data-clipboard-text="alessio.calore96@gmail.com" onclick="copiaemail()" title="Email copied!" data-toggle="popover" data-placement="bottom"><i class="fas fa-envelope"></i> E-mail</a>
-                  <a role="button" class="nav-link clip" aria-label="Cellphone" data-clipboard-text="+393402956476" onclick="copiacell()" title="Cellphone copied!" data-toggle="popover" data-placement="bottom"><i class="fas fa-phone-alt"></i> Cellphone</a>
-                </div>
-              </div>
+  <head>
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.0.0-beta2-dist/css/stylesheet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Alessio Calore, Game & Web Developer. 
+                     This is a page where you can check out some of my work."
+    />
+    <title>Alessio Calore's Portfolio - About Me</title>
+    <header>
+      <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img
+              loading="lazy"
+              src="images/logo.png"
+              alt="Alessio's beardy face"
+              width="30"
+              height="30"
+            />
+            Alessio Calore
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+              <a class="nav-link disabled" href="aboutme.html">About me</a>
+              <a
+                class="nav-link nodec"
+                aria-label="Linkedin"
+                href="https://www.linkedin.com/in/alessio-calore-562385120/"
+                ><i class="fab fa-linkedin"></i> Linkedin</a
+              >
+              <a
+                class="nav-link nodec"
+                aria-label="Github"
+                href="https://github.com/Yggahs"
+                ><i class="fab fa-github"></i> Github</a
+              >
+              <a
+                role="button"
+                class="nav-link clip"
+                aria-label="E-mail"
+                data-clipboard-text="alessio.calore96@gmail.com"
+                onclick="copiaemail()"
+                title="Email copied!"
+                data-toggle="popover"
+                data-placement="bottom"
+                ><i class="fas fa-envelope"></i> E-mail</a
+              >
+              <a
+                role="button"
+                class="nav-link clip"
+                aria-label="Cellphone"
+                data-clipboard-text="+393402956476"
+                onclick="copiacell()"
+                title="Cellphone copied!"
+                data-toggle="popover"
+                data-placement="bottom"
+                ><i class="fas fa-phone-alt"></i> Cellphone</a
+              >
             </div>
-          </nav>
-        </header>
-    </head>
-    <body class="bg-darklight">
-        <div class="container-fluid d-flex flex-wrap py-4 text-light">
-                <div class="col-12 col-lg-3 text-center">
-                    <img loading="lazy" src="/images/faec.png" width="250" height="250" alt="My face, LOOK AT IT"/>
-                </div>
-                <div class="col-12 col-lg-9 d-lg-flex flex-column align-content-between">
-                   <p class="text-break">
-                    My name is Alessio Calore and I'm a 25 year old post-graduate at Kingston University from Italy who dreams of becoming a game developer.
-                   </p>
-                   <p class="text-break">
-                    I've always been fascinated with videogames, so much so that I somewhat consider them a contemporary form of art; I do my best to have looks, narrative and gameplay blend in my work in such a way that  it is at the very least pleasant to play.
-                   </p>
-                   <p class="text-break">
-                    I usually use either Unity or Unreal to work on my projects, and thus I know how to program in C# and C++, although I'm always open to learning new programming languages and tools. 
-                   </p>
-                   <p class="text-break"> 
-                    For this reason, I've accepted non-gaming related jobs, and as a resul not only I learned some Java, but I also got into web  development;<br>
-                    This site, for example, is made entirely by me.
-                    </p>
-                    <p class="text-break">
-                        When making games, I try and make most of the assets myself, and thus usually use Photoshop for what regards 2d and either Blender or Maya for 3d, although as of late I've had the opportunity to use Cinema4d as well.
-                    </p> 
-                    <p class="text-break">    
-                        Other than a bachelor's degree in games technology, my academic background includes a diploma in an IT oriented course, from which I learned the basics of programming; I got use out of this experience for a short time, all the way back in 2016 in Rome.
-                    </p>
-                    <p class="text-break">   
-                        As soon as I came back from the UK, I started working for a software development company in Rome; a friend referred me in a web development company during this time and, looking to broaden my horizons in the IT field, I started working for this company soon after.
-                    </p>
-                    <p class="text-break"> 
-                          I'm currently employed as a web developer at SMID FACTORY in Rome, and work on game-dev related side projects in my spare time.
-                    </p>
-                    <p class=" text-break">
-                        When working in groups I tend to take on the role of the leader, or at least monitor my teammates in such a way that not only makes for an interesting final result but also a good time overall. I find investment in a project very important to its overall success, therefore I always try to work on ideas that resonate with me.
-                    </p>
-                    <p class=" text-break">
-                        Other hobbies include gaming, reading, watching movies and long walks on the beach.
-                   </p>
-            </div>
-        </div>    
-        <script src="https://kit.fontawesome.com/64d2f6ddfa.js" crossorigin="anonymous"></script>
-        <script src="/bootstrap-5.0.0-beta2-dist/js/jquery-3.6.0.min.js"></script>
-        <script src="/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
-        <script src="/bootstrap-5.0.0-beta2-dist/js/clipboard.min.js"></script>
-        <script src="/bootstrap-5.0.0-beta2-dist/js/script.js"></script>  
-    </body>
-    <footer class="footer">
-        <div class="d-flex justify-content-around fa-2x py-2 text-secondary bg-dark">
-          <a class="nodec" href="https://www.linkedin.com/in/alessio-calore-562385120/"><i class="fab fa-linkedin"></i></a>
-          <a class="nodec" href="https://github.com/Yggahs"><i class="fab fa-github" ></i></a>
-          <a class="nodec clip" data-clipboard-text="alessio.calore96@gmail.com" role="button" onclick="copiaemail()" title="Email copied!" data-toggle="popover" data-placement="top" ><i class="fas fa-envelope"></i></a>
-        <a class="nodec clip" data-clipboard-text="+393402956476" role="button" onclick="copiacell()" title="Cellphone copied!" data-toggle="popover" data-placement="top"><i class="fas fa-phone-alt"></i></a>
+          </div>
         </div>
-      </footer>
-  </html>
+      </nav>
+    </header>
+  </head>
+  <body class="bg-darklight">
+    <div class="container-fluid d-flex flex-wrap py-4 text-light">
+      <div class="col-12 col-lg-3 text-center">
+        <img
+          loading="lazy"
+          src="/images/faec.png"
+          width="250"
+          height="250"
+          alt="My face, LOOK AT IT"
+        />
+      </div>
+      <div class="col-12 col-lg-9 d-lg-flex flex-column align-content-between">
+        <p class="text-break">
+          My name is Alessio Calore and I'm a 25 year old post-graduate at
+          Kingston University from Italy who dreams of becoming a game
+          developer.
+        </p>
+        <p class="text-break">
+          I've always been fascinated with videogames, so much so that I
+          somewhat consider them a contemporary form of art; I do my best to
+          have looks, narrative and gameplay blend in my work in such a way that
+          it is at the very least pleasant to play.
+        </p>
+        <p class="text-break">
+          I usually use either Unity or Unreal to work on my projects, and thus
+          I know how to program in C# and C++, although I'm always open to
+          learning new programming languages and tools.
+        </p>
+        <p class="text-break">
+          For this reason, I've accepted non-gaming related jobs, and as a resul
+          not only I learned some Java, but I also got into web development;<br />
+          This site, for example, is made entirely by me.
+        </p>
+        <p class="text-break">
+          When making games, I try and make most of the assets myself, and thus
+          usually use Photoshop for what regards 2d and either Blender or Maya
+          for 3d, although as of late I've had the opportunity to use Cinema4d
+          as well.
+        </p>
+        <p class="text-break">
+          Other than a bachelor's degree in games technology, my academic
+          background includes a diploma in an IT oriented course, from which I
+          learned the basics of programming; I got use out of this experience
+          for a short time, all the way back in 2016 in Rome.
+        </p>
+        <p class="text-break">
+          As soon as I came back from the UK, I started working for a software
+          development company in Rome; a friend referred me in a web development
+          company during this time and, looking to broaden my horizons in the IT
+          field, I started working for this company soon after.
+        </p>
+        <p class="text-break">
+          I'm currently employed as a web developer at SMID FACTORY in Rome, and
+          work on game-dev related side projects in my spare time.
+        </p>
+        <p class="text-break">
+          When working in groups I tend to take on the role of the leader, or at
+          least monitor my teammates in such a way that not only makes for an
+          interesting final result but also a good time overall. I find
+          investment in a project very important to its overall success,
+          therefore I always try to work on ideas that resonate with me.
+        </p>
+        <p class="text-break">
+          Other hobbies include gaming, reading, watching movies and long walks
+          on the beach.
+        </p>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/64d2f6ddfa.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/bootstrap-5.0.0-beta2-dist/js/jquery-3.6.0.min.js"></script>
+    <script src="/bootstrap-5.0.0-beta2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/bootstrap-5.0.0-beta2-dist/js/clipboard.min.js"></script>
+    <script src="/bootstrap-5.0.0-beta2-dist/js/script.js"></script>
+  </body>
+  <footer class="footer">
+    <div
+      class="d-flex justify-content-around fa-2x py-2 text-secondary bg-dark"
+    >
+      <a
+        class="nodec"
+        href="https://www.linkedin.com/in/alessio-calore-562385120/"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <a class="nodec" href="https://github.com/Yggahs"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a
+        class="nodec clip"
+        data-clipboard-text="alessio.calore96@gmail.com"
+        role="button"
+        onclick="copiaemail()"
+        title="Email copied!"
+        data-bs-toggle="tooltip"
+        data-placement="top"
+        ><i class="fas fa-envelope"></i
+      ></a>
+      <a
+        class="nodec clip"
+        data-clipboard-text="+393402956476"
+        role="button"
+        onclick="copiacell()"
+        title="Cellphone copied!"
+        data-bs-toggle="tooltip"
+        data-placement="top"
+        ><i class="fas fa-phone-alt"></i
+      ></a>
+    </div>
+  </footer>
+</html>

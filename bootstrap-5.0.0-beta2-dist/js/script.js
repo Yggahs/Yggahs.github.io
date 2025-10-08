@@ -1,6 +1,6 @@
 $(document).ready(function () {
   const year = new Date().getFullYear() - 1996;
-  $(document).getElementById("year")?.textContent = year;
+  $("#year").text(year);
 
   var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')

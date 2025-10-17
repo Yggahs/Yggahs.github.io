@@ -1,9 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "Yggahs.github.io",
+  "homepage": "https://Yggahs.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Yggahs.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

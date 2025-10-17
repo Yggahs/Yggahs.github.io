@@ -1,4 +1,4 @@
-import { Briefcase, Code, Joystick, Laptop, User } from "lucide-react";
+import { Briefcase, Joystick, Laptop } from "lucide-react";
 
 export const AboutSection = () => {
   return (

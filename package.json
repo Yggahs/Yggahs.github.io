@@ -2,11 +2,12 @@
   "name": "Yggahs.github.io",
   "homepage": "https://Yggahs.github.io",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build-watch": "vite build --watch --config ./vite.config.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

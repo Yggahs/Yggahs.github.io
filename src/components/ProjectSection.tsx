@@ -101,6 +101,21 @@ The shaders in this project are:
     githubUrl: "https://github.com/Yggahs/UnrealShaders",
     youtubeUrl: "https://www.youtube.com/watch?v=52AHUlJ0zQU",
   },
+  {
+    id: 10,
+    title: "Swipey Cards - Prototype",
+    description: `This is a prototype for a clicker-type game, 'Swipey Cards'.<br/>
+    I have dropped this prototype because I realised halfway through development that using 3d assets would have been better to start with.
+    The game would be mostly targeted at mobile users.<br/>
+    The game would revolve around opening packs and collecting/selling the cards inside; each card has a a rarity, a condition and a foil status.
+    These qualities contribute to a card's value, and the total earning can be seen on the top of the screen.<br/>
+    To sell a card, simply swipe right or left.`,
+    images: ["/projects/swipeycards.png"],
+    tags: ["Unity"],
+    demoUrl: "https://yggahs.itch.io/swipeycards",
+    githubUrl: "https://github.com/Yggahs/SwipeCards",
+    youtubeUrl: "",
+  },
 ];
 
 export const ProjectSection = () => {
